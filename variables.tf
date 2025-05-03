@@ -54,7 +54,7 @@ variable "instance_type" {
 # }
 
 variable "cidr_blocks_ingress_bastion" {
-  type = list(string)
-  #default = ["49.204.137.211/32"] # This is my home IPAdress
-  default = ["45.119.28.0/24"] # This is Raj home IPAdress
+  type    = list(string)
+  default = ["49.204.141.50/32"] # This is my home IPAdress
+  #default = ["45.119.28.0/24"] # This is Raj home IPAdress
 }
